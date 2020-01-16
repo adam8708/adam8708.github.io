@@ -1,7 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Sports Team</title>
+<style>
+
+.image {
+  /*--max-width:480px;-->*/
+  align-content: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}	
+</style>
+<title>Clapton Orient FC</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Sports Team template project">
@@ -30,6 +72,8 @@
 						<div class="main_nav_container_outer d-flex flex-row align-items-end justify-content-center trans_400">
 							<nav class="main_nav">
 								<div class="main_nav_container d-flex flex-row align-items-center justify-content-lg-start justify-content-center">
+
+
 									<div>
 										<!-- Header LIVE -->
 										<div class="header_live">
@@ -40,25 +84,26 @@
 												</div>
 											</a>
 										</div>
-										<ul class="d-flex flex-row align-items-start justify-content-end">
-											<li class="active"><a href="index.html">home</a></li>
-											<li><a href="about.html">about the club</a></li>
-											<li><a href="#">media</a></li>
+										<ul class="d-flex flex-row align-items-start justify-content-end" style="display: none;">
+											<li class="active"><a href="index.html" style="display: none;">home</a></li>
+											<li><a href="about.html" style="display: none;">about the club</a></li>
+											<li><a href="#" style="display: none;">media</a></li>
 										</ul>
 									</div>
-									<div class="logo_container text-center"><div class="trans_400"><a href="#"><img src="images/logo.png" alt=""></a></div></div>
-									<div>
-										<ul class="d-flex flex-row align-items-start justify-content-start">
-											<li><a href="#">tickets</a></li>
-											<li><a href="blog.html">news</a></li>
-											<li><a href="contact.html">contact</a></li>
+
+									<div class="logo_container text-center"><div class="trans_400"><a href="#"><img src="images/logo.png" alt="" class="image"></a></div></div>									<div>
+										<ul class="d-flex flex-row align-items-start justify-content-start" style="display: none;">
+											<li><a href="#" style="display: none;">tickets</a></li>
+											<li><a href="blog.html" style="display: none;">news</a></li>
+											<li><a href="contact.html" style="display: none;">contact</a></li>
 										</ul>
 									</div>
+
 								</div>
 							</nav>
-							<div class="hamburger">
+							<!--<div class="hamburger">
 								<i class="fa fa-bars trans_200"></i>
-							</div>
+							</div>-->
 						</div>
 					</div>
 				</div>
@@ -72,18 +117,18 @@
 							<div class="header_bar_content d-flex flex-row align-items-center justify-content-start">
 								<div class="header_links">
 									<ul class="d-flex flex-row align-items-start justify-content-start">
-										<li><a href="#">GET Tickets</a></li>
-										<li><a href="#">Shop</a></li>
+										<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9HaZ_N2wwkd9ogDI-rT1G1LYj5pvJvJdv3ifxu5YCBjBTtw/viewform?vc=0&c=0&w=1">Join Us</a></li>
+										<li><a href="mailto:claptonorientfc@gmail.com">Contact</a></li>
 									</ul>
 								</div>
 								<div class="header_bar_right ml-auto d-flex flex-row align-items-center justify-content-start">
 									
 									<!-- Header LIVE -->
 									<div class="header_live">
-										<a href="#">
+										<a href="https://mixer.com/InterceptAD?vod=Z0oXAkkE3U65YMRvxYQnpg">
 											<div class="d-flex flex-row align-items-center justify-content-start">
-												<div>live</div>
-												<div>Lorem ipsum dolor sit amet, consectetur...</div>
+												<div>Live</div>
+												<div>Watch on Mixer</div>
 											</div>
 										</a>
 									</div>
@@ -91,8 +136,8 @@
 									<!-- Sign up / Sign in -->
 									<div class="user_area">
 										<ul class="d-flex flex-row align-items-start justify-content-start">
-											<li><a href="#">Sign up</a></li>
-											<li><a href="#">Sign in</a></li>
+											<li><a href="https://www.instagram.com/claptonorientfc/?hl=en">Instagram</a></li>
+											<li><a href="https://twitter.com/clapton_fc">Twitter</a></li>
 										</ul>
 									</div>
 								</div>
@@ -114,23 +159,23 @@
 				<div class="menu_close">close</div>
 				<div class="menu_user_area">
 					<ul class="d-flex flex-row align-items-start justify-content-end">
-						<li><a href="#">Sign up</a></li>
-						<li><a href="#">Sign in</a></li>
+						<li><a href="#">Instagram</a></li>
+						<li><a href="#">Twitter</a></li>
 					</ul>
 				</div>
 				<nav class="menu_nav">
 					<ul class="text-right">
 						<li><a href="index.html">home</a></li>
-						<li><a href="about">about us</a></li>
-						<li><a href="team.html">the team</a></li>
-						<li><a href="blog.html">news</a></li>
-						<li><a href="contact.html">contact</a></li>
+						<li><a href="about">about</a></li>
+						<li><a href="team.html">stats</a></li>
+						<li><a href="blog.html">contact</a></li>
+						<!--<li><a href="contact.html">contact</a></li>-->
 					</ul>
 				</nav>
 				<div class="menu_links">
 					<ul class="d-flex flex-row align-items-start justify-content-start">
-						<li><a href="#">GET Tickets</a></li>
-						<li><a href="#">Shop</a></li>
+						<li><a href="#">Join Us</a></li>
+						<li><a href="#">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -147,26 +192,26 @@
 				
 				<!-- Slide -->
 				<div class="home_slide">
-					<div class="background_image" style="background-image:url(images/index.jpg)"></div>
+					<div class="background_image" style="background-image:url(images/index.jpeg)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
 								<div class="col-lg-10">
 									<div class="home_content" data-animation-in="zoomInDown" data-animation-out="animate-out fadeOut">
 										<div class="home_text d-flex flex-row align-items-center justify-content-start">
-											<div>2</div>
-											<span>days until the next match</span>
+											<div>H</div>
+											<span> Upcoming Match</span>
 										</div>
 										<div class="next_match">
 											<div>
 												<div class="next_match_home">
-													<a href="#">The Tigers</a>
+													<a href="#">Clapton Orient</a>
 												</div>
 												<div class="next_match_guest">
-													<a href="#">The Bears</a>
+													<a href="#">Fax</a>
 												</div>
 											</div>
-											<div class="vs">vs</div>
+											<div class="vs"></div>
 										</div>
 									</div>
 								</div>
@@ -177,26 +222,26 @@
 
 				<!-- Slide -->
 				<div class="home_slide">
-					<div class="background_image" style="background-image:url(images/index.jpg)"></div>
+					<div class="background_image" style="background-image:url(images/index4.jpg)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
 								<div class="col-lg-10">
 									<div class="home_content" data-animation-in="zoomInDown" data-animation-out="animate-out fadeOut">
 										<div class="home_text d-flex flex-row align-items-center justify-content-start">
-											<div>2</div>
-											<span>days until the next match</span>
+											<div>A</div>
+											<span>Upcoming Match</span>
 										</div>
 										<div class="next_match">
 											<div>
 												<div class="next_match_home">
-													<a href="#">The Tigers</a>
+													<a href="#">Jaywick</a>
 												</div>
 												<div class="next_match_guest">
-													<a href="#">The Bears</a>
+													<a href="#">Clapton Orient</a>
 												</div>
 											</div>
-											<div class="vs">vs</div>
+											<div class="vs"></div>
 										</div>
 									</div>
 								</div>
@@ -207,26 +252,26 @@
 
 				<!-- Slide -->
 				<div class="home_slide">
-					<div class="background_image" style="background-image:url(images/index.jpg)"></div>
+					<div class="background_image" style="background-image:url(images/index3.jpg)"></div>
 					<div class="home_container">
 						<div class="container">
 							<div class="row">
 								<div class="col-lg-10">
 									<div class="home_content" data-animation-in="zoomInDown" data-animation-out="animate-out fadeOut">
 										<div class="home_text d-flex flex-row align-items-center justify-content-start">
-											<div>2</div>
-											<span>days until the next match</span>
+											<div>H</div>
+											<span>Upcoming Match</span>
 										</div>
 										<div class="next_match">
 											<div>
 												<div class="next_match_home">
-													<a href="#">The Tigers</a>
+													<a href="#">Clapton Orient</a>
 												</div>
 												<div class="next_match_guest">
-													<a href="#">The Bears</a>
+													<a href="#">Jaywick</a>
 												</div>
 											</div>
-											<div class="vs">vs</div>
+											<div class="vs"></div>
 										</div>
 									</div>
 								</div>
@@ -243,17 +288,17 @@
 
 	<!-- News -->
 
-	<div class="breaking_news d-flex flex-row align-items-start justify-content-start">
+	<div class="breaking_news d-flex flex-row align-items-start justify-content-start mobile_hide">
 		<div class="breaking_news_title text-right">Breaking News</div>
 		<div class="breaking_news_content">
 			<div class="breaking_news_slider_container">
 				<div class="owl-carousel owl-theme breaking_news_slider">
 					<!-- Slide -->
-					<div class="breaking_news_slide">Pellentesque enim nunc, vehicula in massa quis, consectetur tempus nulla</div>
+					<div class="breaking_news_slide">Clapton Orient Defeat Ribena 6-0 on Aggregate to Progress to the Cup Semi-final</div>
 					<!-- Slide -->
-					<div class="breaking_news_slide">Enim nunc, vehicula in massa quis, consectetur tempus</div>
+					<div class="breaking_news_slide">Clapton Orient beat Velocity - the Second Overall Ranked Pro Club</div>
 					<!-- Slide -->
-					<div class="breaking_news_slide">Vehicula in massa quis, consectetur tempus nulla. Pellentesque enim nunc</div>
+					<div class="breaking_news_slide">Clapton Orient Win Division 1 Title and Remain Unbeaten in the Competition</div>
 				</div>
 			</div>
 		</div>
@@ -266,15 +311,15 @@
 			<div class="row">
 				<div class="col">
 					<div class="section_title_container">
-						<div class="section_title text-center"><h1>latest results</h1></div>
+						<div class="section_title text-center"><h1>latest result</h1></div>
 					</div>
 				</div>
 			</div>
 			<div class="row results_row">
 				<div class="col">
 					<div class="results_title_container text-center">
-						<div class="results_title">great win in finals</div>
-						<div class="results_subtitle">Mon 25 Sept, Champions League</div>
+						<div class="results_title">Clapton Cinch Division 1 Title in Undefeated Season</div>
+						<div class="results_subtitle">Wed 15 Jan 2020, Division 1</div>
 					</div>
 					<div class="results_container d-flex flex-row align-items-start justify-content-start">
 						<div class="result text-right">
@@ -282,23 +327,23 @@
 								<div class="team_image d-flex flex-column align-items-start justify-content-end"><img src="images/result_1.jpg" alt=""></div>
 								<div class="text-center">
 									<div class="result_num">2</div>
-									<div class="result_team">Bulls Club</div>
+									<div class="result_team">Clapton </div>
 								</div>
 							</div>
 							<div class="result_text text-left">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan dolor id enim lacinia, sed feugiat ex suscipit.</p>
+								<p>Impala 21, Impala 87</p>
 							</div>
 						</div>
 						<div class="result text-left">
 							<div class="result_content d-flex flex-row align-items-end justify-content-start">
 								<div class="text-center">
-									<div class="result_num">2</div>
-									<div class="result_team">Tigers Club</div>
+									<div class="result_num">1</div>
+									<div class="result_team">Troyes</div>
 								</div>
 								<div class="team_image d-flex flex-column align-items-end justify-content-end"><img src="images/result_2.jpg" alt=""></div>
 							</div>
 							<div class="result_text text-right">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan dolor id enim lacinia, sed feugiat ex suscipit.</p>
+								<p>Unknown 38</p>
 							</div>
 						</div>
 					</div>
@@ -306,7 +351,7 @@
 			</div>
 			<div class="row">
 				<div class="col text-center">
-					<div class="button results_button"><a href="#">See More Info</a></div>
+					<div class="button results_button"><a href="https://www.ea.com/games/fifa/fifa-20/pro-clubs/overview?clubId=1991631&platform=xboxone">Find Us On Pro Clubs</a></div>
 				</div>
 			</div>
 		</div>
@@ -314,128 +359,7 @@
 
 	<!-- Upcoming & Latest -->
 
-	<div class="upcoming_latest">
-		<div class="container">
-			<div class="row">
-				<!-- Upcoming Events -->
-				<div class="col-xl-6">
-					<div class="section_title_container">
-						<div class="section_title light"><h1>upcoming events</h1></div>
-						<div class="section_subtitle">What's next this month</div>
-					</div>
-					<div class="custom_list_a">
-						<div class="upcoming_image"><img src="images/football_player.png" alt=""></div>
-						<ul>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="custom_list_image"><img src="images/upcoming_1.jpg" alt=""></div>
-								<div class="custom_list_title_container">
-									<div class="custom_list_title"><a href="blog.html">New T-shirts launch</a></div>
-									<div class="custom_list_date">August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="custom_list_link ml-auto"><a href="blog.html">See More</a></div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="custom_list_image"><img src="images/upcoming_2.jpg" alt=""></div>
-								<div class="custom_list_title_container">
-									<div class="custom_list_title"><a href="blog.html">Team presentation</a></div>
-									<div class="custom_list_date">August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="custom_list_link ml-auto"><a href="blog.html">See More</a></div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="custom_list_image"><img src="images/upcoming_3.jpg" alt=""></div>
-								<div class="custom_list_title_container">
-									<div class="custom_list_title"><a href="blog.html">Press Conference</a></div>
-									<div class="custom_list_date">August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="custom_list_link ml-auto"><a href="blog.html">See More</a></div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="custom_list_image"><img src="images/upcoming_4.jpg" alt=""></div>
-								<div class="custom_list_title_container">
-									<div class="custom_list_title"><a href="blog.html">New T-shirts launch</a></div>
-									<div class="custom_list_date">August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="custom_list_link ml-auto"><a href="blog.html">See More</a></div>
-							</li>
-						</ul>
-					</div>
-				</div>
-
-				<!-- Latest Games -->
-				<div class="col-xl-6 custom_lists_col">
-					<div class="section_title_container">
-						<div class="section_title light"><h1>latest games</h1></div>
-						<div class="section_subtitle">Results</div>
-					</div>
-					<div class="custom_list_b">
-						<ul>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="d-flex flex-row align-items-center justify-content-start">
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_1.png" alt=""></div>
-									<div class="team_name"><a href="team.html">The Alligators</a></div>
-								</div>
-								<div class="text-center">
-									<div>Football League</div>
-									<div>8 : 3</div>
-									<div>August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="d-flex flex-row align-items-center justify-content-end">
-									<div class="team_name text-right"><a href="team.html">The Tigers</a></div>
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_2.png" alt=""></div>
-								</div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="d-flex flex-row align-items-center justify-content-start">
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_2.png" alt=""></div>
-									<div class="team_name"><a href="team.html">The Alligators</a></div>
-								</div>
-								<div class="text-center">
-									<div>Football League</div>
-									<div>8 : 3</div>
-									<div>August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="d-flex flex-row align-items-center justify-content-end">
-									<div class="team_name text-right"><a href="team.html">The Eagles</a></div>
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_4.png" alt=""></div>
-								</div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="d-flex flex-row align-items-center justify-content-start">
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_3.png" alt=""></div>
-									<div class="team_name"><a href="team.html">Denver Pumas</a></div>
-								</div>
-								<div class="text-center">
-									<div>Football League</div>
-									<div>8 : 3</div>
-									<div>August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="d-flex flex-row align-items-center justify-content-end">
-									<div class="team_name text-right"><a href="team.html">The Tigers</a></div>
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_2.png" alt=""></div>
-								</div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="d-flex flex-row align-items-center justify-content-start">
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_2.png" alt=""></div>
-									<div class="team_name"><a href="team.html">The Tigers</a></div>
-								</div>
-								<div class="text-center">
-									<div>Football League</div>
-									<div>8 : 3</div>
-									<div>August 25, 2018 / 17 UTC</div>
-								</div>
-								<div class="d-flex flex-row align-items-center justify-content-end">
-									<div class="team_name text-right"><a href="team.html">The Eagles</a></div>
-									<div class="team_logo d-flex flex-column align-items-center justify-content-center"><img src="images/logo_4.png" alt=""></div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	
 
 	<!-- Milestones -->
 
@@ -449,9 +373,9 @@
 					<div class="milestone d-flex flex-row align-items-start justify-content-start">
 						<div class="milestone_icon"><img src="images/icon_1.svg" alt="https://www.flaticon.com/authors/freepik"></div>
 						<div class="milestone_content">
-							<div class="milestone_counter" data-end-value="23" data-sign-after="k">0</div>
+							<div class="milestone_counter" data-end-value="13" data-sign-after="">0</div>
 							<div class="milestone_title">Team players</div>
-							<div class="milestone_subtitle">Lorem ipsum dolor sit amet,</div>
+							<div class="milestone_subtitle">make up our squad</div>
 						</div>
 					</div>
 				</div>
@@ -461,9 +385,9 @@
 					<div class="milestone d-flex flex-row align-items-start justify-content-start">
 						<div class="milestone_icon"><img src="images/icon_2.svg" alt="https://www.flaticon.com/authors/freepik"></div>
 						<div class="milestone_content">
-							<div class="milestone_counter" data-end-value="120">0</div>
+							<div class="milestone_counter" data-end-value="12">0</div>
 							<div class="milestone_title">Trophies</div>
-							<div class="milestone_subtitle">Lorem ipsum dolor sit amet,</div>
+							<div class="milestone_subtitle">and more to come</div>
 						</div>
 					</div>
 				</div>
@@ -473,9 +397,9 @@
 					<div class="milestone d-flex flex-row align-items-start justify-content-start">
 						<div class="milestone_icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/freepik"></div>
 						<div class="milestone_content">
-							<div class="milestone_counter" data-end-value="7">0</div>
-							<div class="milestone_title">Medals</div>
-							<div class="milestone_subtitle">Lorem ipsum dolor sit amet,</div>
+							<div class="milestone_counter" data-end-value="4">0</div>
+							<div class="milestone_title">Awards</div>
+							<div class="milestone_subtitle">have been won by our squad</div>
 						</div>
 					</div>
 				</div>
@@ -485,9 +409,9 @@
 					<div class="milestone d-flex flex-row align-items-start justify-content-start">
 						<div class="milestone_icon"><img src="images/icon_4.svg" alt="https://www.flaticon.com/authors/freepik"></div>
 						<div class="milestone_content">
-							<div class="milestone_counter" data-end-value="36">0</div>
-							<div class="milestone_title">Kicks/Match</div>
-							<div class="milestone_subtitle">Lorem ipsum dolor sit amet,</div>
+							<div class="milestone_counter" data-end-value="142">0</div>
+							<div class="milestone_title">Matches</div>
+							<div class="milestone_subtitle">have been played so far</div>
 						</div>
 					</div>
 				</div>
@@ -508,19 +432,18 @@
 							<div class="section_subtitle">What's next this month</div>
 						</div>
 						<div class="player_name_container d-flex flex-row align-items-end justify-content-start">
-							<div class="player_num">83</div>
-							<div class="player_name">Michael Smith</div>
+							<div class="player_num">?</div>
+							<div class="player_name">Coming Soon</div>
 						</div>
 						<div class="player_text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan dolor id enim lacinia, sed feugiat ex suscipit. Nunc molestie malesuada pellentesque. Quisque mattis ante ut nisl tristique ornare. Aenean interdum dictum augue, quis egestas erat lacinia in. Proin dictum commodo nulla ut mattis. Pellentesque vel commodo nisi. Donec eget purus eget ex efficitur tristique. Nulla ut mollis justo.</p>
-							<p>Nam turpis nulla, ullamcorper volutpat faucibus ut, facilisis in elit. Nam blandit diam vel felis porta, vitae congue nulla feugiat. Vestibulum rhoncus odio elit, at aliquet sem posuere vel.</p>
+							<p></p>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-6">
-					<div class="player_images d-flex flex-row align-items-end justify-content-start">
-						<div class="player_image"><img src="images/player_1.png" alt=""></div>
-						<div class="player_image"><img src="images/player_2.png" alt=""></div>
+					<div class="player_images d-flex flex-row align-items-center justify-content-center">
+						<div class="player_image"><img src="images/index2.png" alt=""></div>
+						<!--<div class="player_image"><img src="images/player_2.png" alt=""></div>-->
 					</div>
 				</div>
 			</div>
@@ -534,15 +457,15 @@
 			<div class="row">
 				<div class="col">
 					<div class="section_title_container">
-						<div class="section_title"><h1>latest news</h1></div>
-						<div class="section_subtitle">What's next this month</div>
+						<div class="section_title"><h1>Clapton Orient Football Club</h1></div>
+						<div class="section_subtitle">The Squad</div>
 					</div>
 				</div>
 			</div>
 			<div class="row news_row">
 				
 				<!-- News Post -->
-				<div class="col-lg-4">
+				<!--<div class="col-lg-4">
 					<div class="news_post">
 						<div class="news_post_image">
 							<img src="images/news_1.jpg" alt="">
@@ -570,7 +493,7 @@
 				</div>
 
 				<!-- News Post -->
-				<div class="col-lg-4">
+				<!--<div class="col-lg-4">
 					<div class="news_post">
 						<div class="news_post_image">
 							<img src="images/news_2.jpg" alt="">
@@ -598,7 +521,7 @@
 				</div>
 
 				<!-- News Post -->
-				<div class="col-lg-4">
+				<!--<div class="col-lg-4">
 					<div class="news_post">
 						<div class="news_post_image">
 							<img src="images/news_3.jpg" alt="">
@@ -627,11 +550,206 @@
 
 			</div>
 		</div>
-	</div>
+	</div>-->
+
+	<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="images/santos.jpg" alt="John" style="width:100%">
+  <h1>Djalma Santos</h1>
+  <p class="title">Striker</p>
+  <p>Captain</p>
+  <p>GT: waterpolodan</p>
+  <!--<a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>-->
+  <a href="https://www.instagram.com/djalma_santos_5/?hl=en"><button>Instagram</button></a>
+</div>
+
+
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="images/kani.jpg" alt="John" style="width:100%">
+  <h1>NG <br> Kanires</h1>
+  <p class="title">Central Midfielder</p>
+  <p>Vice Captain</p>
+  <p>GT: Intercept AD</p>
+  <!--<a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>-->
+  <a href="https://www.instagram.com/ng_kanires/?hl=en"><button>Instagram</button></a>
+</div>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="images/kouli.jpg" alt="John" style="width:100%">
+  <h1>Kalidou <br> Koulibaly</h1>
+  <p class="title">Central Defender</p>
+  <p>Vice Captain</p>
+  <p>GT: AntonioMPS</p>
+  <!--<a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>-->
+  <a href="https://www.instagram.com/antonio_mps/?hl=en"><button>Instagram</button></a>
+</div>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="images/rothers.jpg" alt="John" style="width:100%">
+  <h1> <br> Rothinio</h1>
+  <p class="title">Central Defender</p>
+  <p></p>
+  <p>GT: Rothers8</p>
+  <!--<a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>-->
+  <a href="https://www.instagram.com/michaelrotheram1/?hl=en"><button>Instagram</button></a>
+</div>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="images/imp.jpg" alt="John" style="width:100%">
+  <h1>Veteran <br> Impala</h1>
+  <p class="title">Striker</p>
+  <p></p>
+  <p> GT: Veteran Impala </p>
+  <!--<a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>-->
+  <a href="https://www.instagram.com/daniel.r.lorentzen/?hl=en"><button>Instagram</button></a>
+</div>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="images/goose.jpg" alt="John" style="width:100%">
+  <h1> <br> Goose</h1>
+  <p class="title">Defensive Midfielder</p>
+  <p></p>
+  <p>GT: || Angoose || </p>
+  <!--<a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>-->
+  <a href="https://www.instagram.com/angus.smith14/?hl=en"><button>Instagram</button></a>
+</div>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="images/hill.jpg" alt="John" style="width:100%">
+  <h1> Robert <br> Hill</h1>
+  <p class="title">Left Back</p>
+  <p></p>
+  <p>GT: ninjapig40</p>
+  <!--<a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>-->
+  <a href="https://www.instagram.com/_richard04_/?hl=en"><button>Instagram</button></a>
+</div>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="images/tomori.jpg" alt="John" style="width:100%">
+  <h1> Fikayo <br> Tomori</h1>
+  <p class="title">Central Defender</p>
+  <p></p>
+  <p>GT: Fraqz Coutinho</p>
+  <!--<a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>-->
+  <a href="https://www.instagram.com/vfl_minamino18/?hl=en"><button>Instagram</button></a>
+</div>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="images/bobby.jpg" alt="John" style="width:100%">
+  <h1> Bobby <br> Moore</h1>
+  <p class="title">Defensive Midfielder</p>
+  <p></p>
+  <p>GT: Ellisord03</p>
+  <!--<a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>-->
+  <a href="https://www.instagram.com/bobby_moore6__/?hl=en"><button>Instagram</button></a>
+</div>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="images/jack.jpg" alt="John" style="width:100%">
+  <h1> Jack <br> Wire</h1>
+  <p class="title">Central Attacking Midfielder</p>
+  <p></p>
+  <p>GT: JackOB99</p>
+  <!--<a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>-->
+  <a href="https://www.instagram.com/vfl_jack33/?hl=en"><button>Instagram</button></a>
+</div>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="images/raw.jpg" alt="John" style="width:100%">
+  <h1>  <br> RAW</h1>
+  <p class="title">Right Back</p>
+  <p></p>
+  <p>GT: RAWchard</p>
+  <!--<a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>-->
+  <a href="https://www.instagram.com/rawog/?hl=en"><button>Instagram</button></a>
+</div>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="images/phil.jpg" alt="John" style="width:100%">
+  <h1> Phil <br> Foden </h1>
+  <p class="title">Attacking Midfielder</p>
+  <p></p>
+  <p>GT: MrPhill02 </p>
+  <!--<a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>-->
+  <a href="https://www.instagram.com/philipjrgensen23/?hl=en"><button>Instagram</button></a>
+</div>
+
 
 	<!-- CTA -->
 
-	<div class="cta">
+	<!--<div class="cta">
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -642,14 +760,14 @@
 				</div>
 			</div>
 		</div>			
-	</div>
+	</div>-->
 	
 	<!-- Footer -->
 
 	<footer class="footer">
 		<div class="footer_container">
 			<div class="container">
-				<div class="row">
+				<!--<div class="row">
 					<div class="col-lg-5 order-lg-1 order-3">
 						<div class="footer_image d-flex flex-column align-items-lg-start align-items-center justify-content-end">
 							<div><img src="images/footer.png" alt=""></div>
@@ -675,10 +793,11 @@
 								</ul>
 							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 order-lg-3 order-2">
+					</div>-->
+					<div style="text-align:center;" class="col-lg-12 order-lg-3 order-2">
 						<div class="newsletter">
-							<div class="newsletter_title">Subscribe to newsletter</div>
+							<div data-pch-club="xboxone-1991631"></div><script async src="https://proclubshead.com/assets/js/embed.min.js"></script>
+							<!--<div class="newsletter_title">Subscribe to newsletter</div>
 							<div class="newsletter_form_container">
 								<form action="#" class="newsletter_form" id="newsletter_form">
 									<div class="d-flex flex-row align-items-start justify-content-start">
@@ -687,7 +806,7 @@
 									</div>
 								</form>
 								<div class="newsletter_text">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
 								</div>
 							</div>
 						</div>
@@ -699,19 +818,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col">
-						<div class="footer_bar_content d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-start">
+						<div class="footer_bar_content d-flex flex-md-row flex-column align-items-md-center align-items-center justify-content-center">
 							<div class="cr order-md-1 order-2"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-							<nav class="footer_nav ml-md-auto order-md-2 order-1">
-								<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="team.html">The Team</a></li>
-									<li><a href="#">Tickets</a></li>
-									<li><a href="blog.html">News</a></li>
-									<li><a href="contact.html">Contact</a></li>
-								</ul>
-							</nav>
 						</div>
 					</div>
 				</div>

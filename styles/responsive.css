@@ -94,7 +94,11 @@
 	}
 	.player_image
 	{
-		width: calc((100% - 40px) / 2);
+		width: 100%;
+	}
+	.player_image:first-child
+	{
+		margin-bottom: 40px;
 	}
 	.cta_text
 	{

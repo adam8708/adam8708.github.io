@@ -1348,7 +1348,7 @@ section
 }
 .player_images
 {
-	position: absolute;
+	position: center;
 	left: 0;
 	bottom: 0;
 	width: calc(50vw + 55px);
@@ -1361,10 +1361,10 @@ section
 	-webkit-flex: 0 0 auto;
 	flex: 0 0 auto;
 }
-.player_image:first-child
+/*.player_image:first-child
 {
 	margin-right: 40px;
-}
+}*/
 
 /*********************************
 11. News
@@ -1678,4 +1678,17 @@ section
 .footer_nav ul li a:hover
 {
 	color: #ffa54b;
+}
+
+/***************
+#### CUSTOM ####
+***************/
+
+@media screen and (max-width: 600px) {
+  .mobile_hide {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+  }
 }
